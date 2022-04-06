@@ -1,7 +1,7 @@
 # a102
 room for students
-def capitalize(String):
-    return String.title()
-capitalize("shop") # [Shop]
-capitalize("python programming") # [Python Programming]
-capitalize("how are you!") # [How Are You!]
+def check_duplicate(lst):
+    return len(lst) != len(set(lst))
+check_duplicate([1,2,3,4,5,4,6]) # True
+check_duplicate([1,2,3]) # False
+check_duplicate([1,2,3,4,9]) # False
